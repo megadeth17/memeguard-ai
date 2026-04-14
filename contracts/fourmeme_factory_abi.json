@@ -1,0 +1,22 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": true, "name": "token", "type": "address" },
+      { "indexed": true, "name": "creator", "type": "address" },
+      { "indexed": false, "name": "name", "type": "string" },
+      { "indexed": false, "name": "symbol", "type": "string" },
+      { "indexed": false, "name": "initialLiquidity", "type": "uint256" },
+      { "indexed": false, "name": "timestamp", "type": "uint256" }
+    ],
+    "name": "TokenCreated",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "getTokenCount",
+    "outputs": [{ "name": "", "type": "uint256" }],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
